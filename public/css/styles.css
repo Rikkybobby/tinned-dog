@@ -1,0 +1,229 @@
+body {
+  font-family: "Montserrat";
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  line-height: 1.5;
+}
+p {
+  color: grey;
+  font-size: 1.3vw;
+  line-height: 1.5;
+}
+footer {
+  padding: 3% 15% 0%;
+  margin-bottom: 0%;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+/* sections */
+section {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.colored-section {
+  color: #fff;
+  background-color: #F0808C;
+}
+.white-section {
+}
+.newsletter-signup {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+/* title section */
+#main-navbar {
+  background-color: #ea7070;
+  text-align: left;
+  padding: 1% 15% 1%;
+}
+#title {
+  background-color: #ea7070;
+  text-align: left;
+  padding: 7% 15% 12%;
+}
+
+/* Title Image */
+.title-image {
+  width: 110%;
+  height: auto;
+  z-index: 1;
+  top: 10px;
+  /* transform: rotate(45deg); */
+}
+
+/* the only way to change text color in navbar-brand? */
+/* #brand-color {
+    color: #4A818B;
+} */
+
+
+/* Headings */
+.big-heading {
+  font-size: 4vw;
+}
+
+.section-heading {
+  font-size: 4vw;
+}
+
+.feature-title {
+  font-size: 3vw;
+}
+
+.card-title {
+  font-size: 2.5vw;
+}
+
+/* Navbar */
+.navbar {
+  padding: 0 0;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-size: 2.5rem;
+  padding: 0 15px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* Buttons */
+.login-button {
+  margin: 5% 3% 5% 0;
+  width: 10rem;
+  max-width: 100%;
+}
+.sign-up {
+  background-color: #00B1B0;
+}
+
+/* Features */
+
+.feature-icons {
+  color: #F0808C;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.feature-icons:hover {
+  color: #ea7070;
+}
+
+/* Testimonial section */
+#testimonials {
+  padding: 10% 7% 2%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin-top: 3%;
+}
+
+.testimonial-text {
+  font-size: 3vw;
+}
+
+.carousel-button {
+  margin-left: -10%;
+  margin-right: -10%;
+}
+
+/* Press section */
+
+.press-logo {
+  width: 15%;
+  margin: 5px 20px 50px;
+}
+
+/* Pricing */
+
+.price-text {
+  font-weight: 500;
+  font-size: 3vw;
+}
+
+.card {
+  height: 100%;
+  padding: 3% 5%;
+}
+
+.card-title {
+  font-size: 2.4vw;
+}
+
+/* CTA sectoin */
+#cta {
+  background-color: #FEC84D;
+}
+
+/* FOOTER section */
+
+.socialicon {
+  margin: 1% 1%;
+  color: grey;
+}
+
+/* break point 1 RESPONSIVE sECTIONs TO REDUCED VIEWPORT */
+@media (max-width: 780px) {
+  #title {
+    text-align: center;
+  }
+  .price-text, .card-title {
+    font-size: 3.5vw;
+  }
+  p {
+  font-size: 2vw;
+  }
+}
+
+/* NEWSLETTER section */
+
+.form-signin {
+  width: 35%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.middle{
+  margin-bottom: -1px;
+  border-radius: 0;
+}
+.bottom {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* sign up / register form */

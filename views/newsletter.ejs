@@ -1,0 +1,27 @@
+<%- include ("partials/header") -%>
+
+
+
+<section class="newsletter-signup">
+
+  <form action="/newsletter" class="form-signin" method="POST">
+    <img class="mb-4" src="images/lengo.png" alt="" width="72" height="57">
+    <h1 class="h3 mb-3 fw-normal">Sign up</h1>
+
+    <input type="text" name="fName" class="form-control top" placeholder="First Name">
+    <input type="text" name="lName" class="form-control middle" placeholder="Last Name">
+    <input type="email" name="email" class="form-control bottom" placeholder="name@example.com">
+    <button class="btn btn-lg sign-up btn-block" type="submit">Sign me up!</button>
+    <p class="mt-5 mb-3 text-muted">&copy; lengo</p>
+  </form>
+
+</section>
+
+
+
+
+
+
+
+
+<%- include("partials/footer") -%>
