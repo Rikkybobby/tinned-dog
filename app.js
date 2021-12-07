@@ -190,7 +190,3 @@
   let port = process.env.PORT;
   if(port == null || port == "") { port = 4000; }
   app.listen(port, function() { console.log("Server started successfully"); });
-  //mail chimp api key
-  // 77082a3295a26e727aac634dfe513873-us1
-  //list id
-  // 34be7a3b2c
